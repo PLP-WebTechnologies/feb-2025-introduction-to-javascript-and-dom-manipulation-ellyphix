@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML, CSS & JavaScript Basics</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Understanding HTML, CSS, and JavaScript</h1>
+    <p id="intro-text">Click the button below to learn more dynamically!</p>
+    <button onclick="changeIntroText()">Change Introduction</button>
+  </header>
+
+  <section id="html-section">
+    <h2>What is HTML?</h2>
+    <p>HTML stands for HyperText Markup Language. It is the foundation of all web pages and provides the basic structure upon which everything else is built. HTML consists of a series of elements that define the different parts of a web page such as headings, paragraphs, links, images, and other types of content. These elements are wrapped in angle brackets, with opening and closing tags.</p>
+    <p>HTML5, the latest version of HTML, brought several new features and capabilities, including semantic elements such as &lt;article&gt;, &lt;section&gt;, &lt;nav&gt;, and &lt;footer&gt;, which provide better structure and meaning to web pages. It also supports multimedia elements like &lt;audio&gt; and &lt;video&gt;, and it has better integration with CSS and JavaScript.</p>
+    <p>When creating a webpage, HTML is used to create the bones of the site. Without HTML, there would be no structure to display text, images, or links. Every website on the internet is built with some form of HTML, making it an essential language for web developers to learn.</p>
+  </section>
+
+  <section id="css-section">
+    <h2>What is CSS?</h2>
+    <p>CSS stands for Cascading Style Sheets. It is used to control the presentation and layout of HTML elements. With CSS, developers can apply styles such as colors, fonts, spacing, and alignment to web pages, making them visually appealing and user-friendly. CSS can be written inline, in the head of the HTML document, or in an external stylesheet linked to the HTML file.</p>
+    <p>One of the key features of CSS is its cascading nature, which allows styles to be applied hierarchically and overwritten as needed. CSS3, the latest version, includes features like media queries for responsive design, animations, transformations, and grid/flexbox layout systems. These features enable the creation of complex and adaptable web layouts without the need for JavaScript or external libraries.</p>
+    <p>Good CSS practices ensure that a website looks consistent across all browsers and devices. It also separates design from content, allowing developers and designers to work more efficiently. Modern websites cannot exist without proper CSS styling.</p>
+  </section>
+
+  <section id="js-section">
+    <h2>What is JavaScript?</h2>
+    <p>JavaScript is a versatile programming language that allows developers to create interactive and dynamic web content. While HTML and CSS provide structure and style, JavaScript adds behavior to web pages. It can respond to user interactions, manipulate the DOM, validate forms, fetch data from servers, and much more.</p>
+    <p>JavaScript runs in the browser and can be linked externally or embedded directly within the HTML file. It has become a cornerstone of modern web development, enabling features like sliders, modals, dynamic loading of content, and real-time form validation. It’s also the foundation of modern frameworks like React, Vue, and Angular.</p>
+    <p>Learning JavaScript opens the door to full-stack development, especially when combined with environments like Node.js. It is one of the most in-demand languages today due to its wide usage and support in virtually all modern browsers.</p>
+  </section>
+
+  <section id="dynamic-section">
+    <h2>Dynamic Interaction</h2>
+    <button onclick="changeStyle()">Change Section Style</button>
+    <button onclick="addParagraph()">Add a New Paragraph</button>
+    <button onclick="removeParagraph()">Remove Last Paragraph</button>
+    <div id="paragraphs">
+      <p>This section will have content added or removed dynamically using JavaScript.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 HTML-CSS-JS Learning Project</p>
+  </footer>
+
+</body>
+</html>
